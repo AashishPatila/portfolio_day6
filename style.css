@@ -1,15 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-
 
 .header_wrapper .navbar {
     padding: 0.9375rem 0;
@@ -17,6 +14,7 @@
     -o-transition: all .2s linear;
     transition: all .2s linear;
 }
+
 .header_wrapper .navbar-brand img {
     max-width: 10rem;
     height: 50px;
@@ -27,31 +25,45 @@
     height: 200px;
 }
 
-
 .container_nav{
     background-color: rgb(167, 218, 228);
     width: 100%;
 
 }
 
-/* harsh */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
   font-family: "Montserrat";
 }
-h1,
-h2,
-h3,
-h4,
-h5,
+
+h1{
+    font-family: "Montserrat-Black";
+  }
+
+h2{
+    font-family: "Montserrat-Black";
+  }
+
+h3{
+    font-family: "Montserrat-Black";
+  }
+
+h4{
+    font-family: "Montserrat-Black";
+  }
+
+h5{
+    font-family: "Montserrat-Black";
+  }
+
 h6 {
   font-family: "Montserrat-Black";
 }
+
 p {
   text-align: justify;
 }
-/* navbar-icon */
+
 .fa-code{
     font-size: 1.5rem;
 }
@@ -59,42 +71,22 @@ li{
     margin: auto 3px;
 }
 
-/* project section */
 #project {
   color: #252525;
 }
+
 .project-img {
   margin-left: 30%;
 }
 
-/* footer */
 #footer {
   background-color: rgba(37, 37, 37,.6);
-}
-.social-icons {
-  margin: 20px 20px;
-  color: white;
-  font-size: 20px;
-}
-.social-icons:hover{
-    animation: bounce 0.4s cubic-bezier(0.59, -0.67, 0.24, 0.79) 2;
-    animation-direction: alternate;
-}
-
-@keyframes bounce {
-    0%{
-        transform: translateY(0);
-    }
-    100%{
-        transform: translateY(-70px);
-    }
 }
 
 
 para{
     width: 100px;
 }
-
 
 
 
